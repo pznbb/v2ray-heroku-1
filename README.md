@@ -1,10 +1,10 @@
-# v2ray-heroku
+
 
 > 貌似新建的app都需要科学访问，请使用cloudflare worker CDN 套一层。
 
 > 切换到最新的 VLESS 协议。具体客户端配置请看 config 章节。
 
-> v2ray-heroku 是我的主力 backup，我会日常维护它。加入或者修改一些我认为好的配置。但这一般会导致客户端配置需要些许修改。 不过具体配置都会体现在 [详细 VLESS websocket 客户端配置](#vless-websocket-客户端配置)
+> haru-heroku 是我的主力 backup，我会日常维护它。加入或者修改一些我认为好的配置。但这一般会导致客户端配置需要些许修改。 不过具体配置都会体现在 [详细 VLESS websocket 客户端配置](#vless-websocket-客户端配置)
 
 首先查看别人的 [youtube 教程](https://www.youtube.com/watch?v=xHZyDsFYdvA)，了解怎么配置 v2ray-heroku。**本项目使用最新 VLESS 协议，请在客户端配置选择 VLESS**。  
 [详细 VLESS websocket 客户端配置](#vless-websocket-客户端配置) 。
@@ -13,7 +13,7 @@
 
 本项目是包含，
 
-- 一键部署 V2ray 到 heroku。
+- 一键部署 haroru 到 heroku。
 - 利用 Github action 实现 重新部署/停止/启动。
 - **支持多app和多账户 重新部署/停止/启动。**
 - 利用 cloudflare CDN 进行加速。
